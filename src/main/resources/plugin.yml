@@ -1,0 +1,13 @@
+name: BossBarBoss
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  boss:
+    description: Summons and manages the custom boss.
+    usage: /boss [spawn|remove]
+    permission: bossbarboss.admin
+permissions:
+  bossbarboss.admin:
+    description: Allows the player to manage the custom boss.
+    default: op
